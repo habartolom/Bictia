@@ -8,10 +8,11 @@
     margin: 5px;
 }
 
-#navbar_section li{
+#navbar_section li {
     float: left;
     margin: 5px;
 }
+
 #navbar_section a {
     font-family: monospace;
     font-size: 13px;
@@ -23,7 +24,7 @@
 
 @font-face {
     font-family: "pumpkin";
-    src: url("../fonts/Pumpkin Pie Lattes.ttf"); 
+    src: url("../fonts/Pumpkin Pie Lattes.ttf");
 }
 
 @font-face {
@@ -134,9 +135,72 @@
 }
 
 
-/**********************WE WANT SECTION *************************/
+/**********************PAYMENT SECTION*************************/
 
-#we_want_section{
+@font-face {
+    font-family: "bombing";
+    src: url("../fonts/Bombing.ttf");
+}
+
+#payment_section {
+    background-image: url(../img/payment\ image.jpg);
+    background-size: cover;
+    height: 400px;
+    background-position-y: bottom;
+}
+
+#payment_section .payment_text {
+    font-family: "bombing";
+    color: white;
+    text-shadow: 3px 2px 19px #4c4c4c;
+}
+
+#payment_section #payment_methods p {
+    font-size: 75px;
+    margin: 0.6em 0 0 0.3em;
+    text-transform: uppercase;
+}
+
+#payment_section #payment_methods #icons {
+    background: #ffffff52;
+    border-radius: 20px;
+    padding: 8px;
+    display: inline-block;
+}
+
+#payment_section #payment_methods #icons img {
+    width: 80px;
+    height: 80px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+#payment_section #payment_methods #icons img:last-child {
+    height: 55px;
+    width: 108px;
+    margin-bottom: 10px;
+}
+
+#payment_section #shipping {
+    text-align: right;
+}
+
+#payment_section #shipping p {
+    font-size: 45px;
+    margin: 0;
+}
+
+#payment_section #shipping img {
+    width: 200px;
+    margin: 80px -10px;
+    bottom: 0;
+    right: 0;
+}
+
+
+/**********************WE WANT SECTION*************************/
+
+#we_want_section {
     background: #ffe076;
     color: #16265d;
     padding: 2em;
@@ -144,40 +208,40 @@
     border-bottom: 10px solid orange;
 }
 
-#we_want_section p:first-child{
+#we_want_section p:first-child {
     font-size: 7em;
     margin: 0;
     text-align: center;
     line-height: 1em;
 }
 
-#we_want_container{
+#we_want_container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
-#we_want_container .we_want{
+#we_want_container .we_want {
     display: flex;
 }
 
-#we_want_container .we_want p{
+#we_want_container .we_want p {
     font-size: 20px;
     text-align: center;
     line-height: 30px;
 }
 
-#we_want_container .we_want p strong{
+#we_want_container .we_want p strong {
     font-size: 40px;
     font-weight: bolder;
 }
 
-#we_want_container .we_want p span{
+#we_want_container .we_want p span {
     font-family: "LemonYellowSun";
 }
 
 
-/**********************PHOTO SECTION *************************/
+/**********************PHOTO SECTION*************************/
 
 #photo_section {
     height: 500px;
@@ -220,34 +284,35 @@
 
 
 /**********************SOCIAL NETWORKS SECTION*************************/
-#social_networks_section{
+
+#social_networks_section {
     margin: 20px;
     text-align: center;
 }
 
-#social_networks_section h4{
+#social_networks_section h4 {
     font-weight: bold;
 }
 
-#social_networks_section #icons{
+#social_networks_section #icons {
     width: 60%;
     margin: auto;
     max-width: 400px;
     min-width: 200px;
 }
 
-#social_networks_section #icons > li{
+#social_networks_section #icons>li {
     float: left;
     cursor: pointer;
     height: 50px;
     width: 50px;
     margin: 0 20px;
     background-size: 240px;
-    background-image: url("../img/acuarela social networks.jpg");
+    background-image: url("../img/icons/acuarela social networks.jpg");
     background-position-y: -103px;
 }
 
-#social_networks_section #icons > li:hover {
+#social_networks_section #icons>li:hover {
     background-position-y: -45px;
 }
 
