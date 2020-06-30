@@ -1,15 +1,42 @@
+/**********************NAVBAR SECTION*************************/
+
+#navbar_section {
+    padding-top: 0;
+}
+
+#navbar_section ul {
+    margin: 5px;
+}
+
+#navbar_section li{
+    float: left;
+    margin: 5px;
+}
+#navbar_section a {
+    font-family: monospace;
+    font-size: 13px;
+    text-decoration: underline;
+}
+
+
+/**********************PAGE CONTAINER*************************/
+
+@font-face {
+    font-family: "pumpkin";
+    src: url("../fonts/Pumpkin Pie Lattes.ttf"); 
+}
+
 @font-face {
     font-family: "LemonYellowSun";
     src: url("../fonts/Lemon Yellow Sun.otf");
 }
 
-.container {
-    max-width: 1920px;
-    width: 100%;
+#page_container {
+    font-family: "pumpkin";
 }
 
 
-/**********************QUESTIONS SECTION *************************/
+/**********************QUESTIONS SECTION*************************/
 
 #questions_container {
     display: flex;
@@ -107,6 +134,49 @@
 }
 
 
+/**********************WE WANT SECTION *************************/
+
+#we_want_section{
+    background: #ffe076;
+    color: #16265d;
+    padding: 2em;
+    margin: 0;
+    border-bottom: 10px solid orange;
+}
+
+#we_want_section p:first-child{
+    font-size: 7em;
+    margin: 0;
+    text-align: center;
+    line-height: 1em;
+}
+
+#we_want_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#we_want_container .we_want{
+    display: flex;
+}
+
+#we_want_container .we_want p{
+    font-size: 20px;
+    text-align: center;
+    line-height: 30px;
+}
+
+#we_want_container .we_want p strong{
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+#we_want_container .we_want p span{
+    font-family: "LemonYellowSun";
+}
+
+
 /**********************PHOTO SECTION *************************/
 
 #photo_section {
@@ -149,7 +219,56 @@
 }
 
 
-/**********************VIDEO SECTION *************************/
+/**********************SOCIAL NETWORKS SECTION*************************/
+#social_networks_section{
+    margin: 20px;
+    text-align: center;
+}
+
+#social_networks_section h4{
+    font-weight: bold;
+}
+
+#social_networks_section #icons{
+    width: 60%;
+    margin: auto;
+    max-width: 400px;
+    min-width: 200px;
+}
+
+#social_networks_section #icons > li{
+    float: left;
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    margin: 0 20px;
+    background-size: 240px;
+    background-image: url("../img/acuarela social networks.jpg");
+    background-position-y: -103px;
+}
+
+#social_networks_section #icons > li:hover {
+    background-position-y: -45px;
+}
+
+#social_networks_section #icons #instagram {
+    background-position-x: -22px;
+}
+
+#social_networks_section #icons #facebook {
+    background-position-x: -72px;
+}
+
+#social_networks_section #icons #twitter {
+    background-position-x: -120px;
+}
+
+#social_networks_section #icons #whatsapp {
+    background-position-x: -168px;
+}
+
+
+/**********************VIDEO SECTION*************************/
 
 #video_section .col.m4 {
     display: flex;

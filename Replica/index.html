@@ -10,20 +10,20 @@
 </head>
 
 <body>
-    <div id="navbar_section">
+    <div id="navbar_section" class="section">
         <div class="row">
             <div class="col m3 l2 offset-m9">
                 <ul>
-                    <li><a href="#"><u>Blog</u></a></li>
-                    <li><a href="#"><u>Contacto</u></a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contacto</a></li>
                 </ul>
             </div>
         </div>
     </div>
-    <div class="container_page">
+    <div id="page_container">
         <div id="questions_section">
             <div class="row">
-                <div class="col s12 m8 l8" id="questions_container">
+                <div id="questions_container" class="col s12 m8 l8">
                     <div class="questions">¿Cómo se usa?</div>
                     <div class="questions">¿Es cómoda?</div>
                     <div class="questions">¿Es segura?</div>
@@ -39,10 +39,38 @@
                     <div class="questions">¿Está certificada?</div>
                     <div class="questions">¡Asesórame!</div>
                 </div>
-                <div class="col s12 m4 l4" id="carousel_container">
+                <div id="carousel_container" class="col s12 m4 l4">
                     <img id="carousel_image" src="img/copa_logo.jpg" alt="">
                 </div>
             </div>
+        </div>
+        <div id="we_want_section" class="row section">
+            <p>Queremos que la copa que te lleves:</p>
+            <div id="we_want_container">
+                <div class="we_want">
+                    <img src="img/timer.png" alt="">
+                    <p>
+                        <strong>TE FUNCIONE </strong> ↓<br>
+                        <span>Por eso te asesoramos de manera minuciosa y personalizada.</span>
+                    </p>
+                </div>
+                <div class="we_want">
+                    <img src="img/timer.png" alt="">
+                    <p>
+                        <strong>TE DURE </strong> ↓<br>
+                        <span>Por eso te ofrecemos copas de calidad.</span>
+                    </p>
+                </div>
+                <div class="we_want">
+                    <img src="img/timer.png" alt="">
+                    <p>
+                        <strong>TE HAGA BIEN </strong> ↓<br>
+                        <span>Por eso te cuidamos con copas certificadas.</span>
+                        
+                    </p>
+                </div>
+            </div>
+
         </div>
         <div id="photo_section">
             <div id="back"></div>
@@ -51,7 +79,25 @@
             <div id="middle"></div>
         </div>
 
-        <div class="row section" id="video_section">
+        <div id="social_networks_section" class="row section">
+            <h4>Recibe asesoramiento por los siguientes canales:</h4>
+            <ul id="icons">
+                <li id="instagram">
+                    <a href="#"></a>
+                </li>
+                <li id="twitter">
+                    <a href="#"></a>
+                </li>
+                <li id="facebook">
+                    <a href="#"></a>
+                </li>
+                <li id="whatsapp">
+                    <a href="#"></a>
+                </li>
+            </ul>
+        </div>
+
+        <div id="video_section" class="row section">
             <div class="col m4">
                 <iframe width="420" height="240" src="https://www.youtube.com/embed/3FYCR_lgwKo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
@@ -66,6 +112,5 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </body>
-
 
 </html>
