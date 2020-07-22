@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 2</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="wrapper">
+            <form action="" method="get" onsubmit="return validate()">
+                <h1>Log In</h1>
+                <div class="input_field">
+                    <label for="username_input">Username</label>
+                    <input type="text" id="username_input" required >
+                </div>
+                <div class="input_field">
+                    <label for="pass_input">Password</label>
+                    <input type="password" id="pass_input" required minlength="10" maxlength="20">
+                    <div></div>
+                </div>
+                <div id="button_container">
+                    <button>Log In</button>
+                </div>
+            </form>
+            <div id="answer_container">
+                <div></div>
+            </div>
+        </div>
+    </div>
+    <script src="js/exercise2.js"></script>
+
+</body>
+</html>
