@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 1</title>
+    <link rel="stylesheet" href="css/js_workshop.css">
+</head>
+<body>
+    <div id="container">
+        <a href="../index.html">Volver</a>
+        <div id="wrapper">
+            <form action="" method="get">
+                <h1>Lista de tareas</h1>
+                <div class="input_field">
+                    <label for="task_text">Ingresa una tarea nueva:</label>
+                    <input type="text" id="task_input">
+                    <div id="alert"></div>
+                </div>
+            </form>
+            <div id="button_container">
+                <button onclick="addTask()">Añadir Tarea</button>
+                <button onclick="removeTask()">Eliminar Tarea</button>
+            </div>
+            <div id="list_container">
+                <ol></ol>
+            </div>
+        </div>
+    </div>
+    <script src="js/exercise1.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+</body>
+</html>
