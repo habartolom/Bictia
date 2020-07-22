@@ -10,14 +10,14 @@
     <div id="container">
         <a href="../index.html">Volver</a>
         <div id="wrapper">
-            <form action="" method="get">
+            <div id="inputs">
                 <h1>Lista de tareas</h1>
                 <div class="input_field">
-                    <label for="task_text">Ingresa una tarea nueva:</label>
+                    <label for="task_input">Ingresa una tarea nueva:</label>
                     <input type="text" id="task_input">
                     <div id="alert"></div>
                 </div>
-            </form>
+            </div>
             <div id="button_container">
                 <button onclick="addTask()">Añadir Tarea</button>
                 <button onclick="removeTask()">Eliminar Tarea</button>
@@ -28,6 +28,5 @@
         </div>
     </div>
     <script src="js/exercise1.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
 </body>
 </html>

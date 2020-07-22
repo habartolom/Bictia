@@ -8,7 +8,7 @@
         width: 50%;
         border: 1px black solid;
 
-        form{
+        #inputs{
             h1{
                 color: #4C4C4C;
                 text-align: center;
@@ -61,7 +61,34 @@
                 li{
                     color: #4C4C4C;
                     margin: .5em 1em;
+
+                    a{
+                        text-decoration: none;
+                    }
                 }
+            }
+        }
+
+
+        #presentation{
+            h1{
+                color: #4C4C4C;
+                text-align: center;
+            }
+            ul{
+                margin: 2em;;
+
+                li{
+                    color: #4C4C4C;
+                    margin: .5em 1em;
+
+                    a{
+                        text-decoration: none;
+                    }
+                }
+            }
+            p{
+                text-align: center;
             }
         }
 

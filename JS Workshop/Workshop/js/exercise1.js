@@ -21,6 +21,7 @@ function addTask(){
 function removeTask(){
     let tasks = ol.children;
     if(tasks.length > 0){
+        createMessage("");
         tasks[tasks.length - 1].remove();
     }
     else

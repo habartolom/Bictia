@@ -8,22 +8,22 @@
   width: 50%;
   border: 1px black solid;
 }
-#container #wrapper form h1 {
+#container #wrapper #inputs h1 {
   color: #4C4C4C;
   text-align: center;
 }
-#container #wrapper form .input_field {
+#container #wrapper #inputs .input_field {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: .5em 1em;
 }
-#container #wrapper form .input_field label {
+#container #wrapper #inputs .input_field label {
   align-self: flex-start;
   margin: 0.5em 0;
   color: #4C4C4C;
 }
-#container #wrapper form .input_field input {
+#container #wrapper #inputs .input_field input {
   display: block;
   padding: 0.2em 1em;
   border-radius: 0.5em;
@@ -33,7 +33,7 @@
   background-color: #E8F2FE;
   font-size: 1.2em;
 }
-#container #wrapper form .input_field div {
+#container #wrapper #inputs .input_field div {
   color: red;
   margin-top: .5em;
 }
@@ -54,6 +54,26 @@
 #container #wrapper #list_container ol li {
   color: #4C4C4C;
   margin: .5em 1em;
+}
+#container #wrapper #list_container ol li a {
+  text-decoration: none;
+}
+#container #wrapper #presentation h1 {
+  color: #4C4C4C;
+  text-align: center;
+}
+#container #wrapper #presentation ul {
+  margin: 2em;
+}
+#container #wrapper #presentation ul li {
+  color: #4C4C4C;
+  margin: .5em 1em;
+}
+#container #wrapper #presentation ul li a {
+  text-decoration: none;
+}
+#container #wrapper #presentation p {
+  text-align: center;
 }
 #container #wrapper #answer_container {
   display: flex;
