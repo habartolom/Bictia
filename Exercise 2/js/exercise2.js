@@ -17,19 +17,19 @@ function validateExpReg(expReg, msg){
 }
 
 function validateUppercase(){
-    return validateExpReg(/[A-Z]/, "No hay letras mayúsculas");
+    return validateExpReg(/[A-Z]/, "Ingresa al menos una letra mayúscula");
 }
 
 function validateLowercase(){
-    return validateExpReg(/[a-z]/, "No hay letras minúsculas");
+    return validateExpReg(/[a-z]/, "Ingresa al menos una letra minúscula");
 }
 
 function validateNumbers(){
-    return validateExpReg(/[0-9]/, "No hay números");    
+    return validateExpReg(/[0-9]/, "Ingresa al menos un dígito");    
 }
 
 function validateEspecialCharacteres(){
-    return validateExpReg(/\W/, "No hay caracteres especiales");    
+    return validateExpReg(/\W/, "Ingresa al menos un caracter especial");    
 }
 
 function validate(){
